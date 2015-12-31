@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_crap_bool
+    - node.type.crap
+id: node.crap.field_crap_bool
+field_name: field_crap_bool
+entity_type: node
+bundle: crap
+label: 'crap bool'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

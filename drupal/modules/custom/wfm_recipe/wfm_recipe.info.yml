@@ -1,0 +1,15 @@
+name: Recipe
+description: 'Provide Recipe content type and related configuration. A full recipe for a meal.'
+type: module
+core: 8.x
+dependencies:
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+package: WFM
+features:
+  bundle: wfm

@@ -3,4 +3,5 @@ access_log
 .idea
 .DS_Store
 vendor
+*sql
 

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_crap_text
+    - node.type.crap
+  module:
+    - text
+id: node.crap.field_crap_text
+field_name: field_crap_text
+entity_type: node
+bundle: crap
+label: 'crap text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

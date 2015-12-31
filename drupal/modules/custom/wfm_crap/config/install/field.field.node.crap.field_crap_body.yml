@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_crap_body
+    - node.type.crap
+  module:
+    - text
+id: node.crap.field_crap_body
+field_name: field_crap_body
+entity_type: node
+bundle: crap
+label: 'crap body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

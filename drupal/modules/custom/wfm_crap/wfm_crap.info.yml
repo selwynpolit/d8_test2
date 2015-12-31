@@ -1,0 +1,16 @@
+name: crap
+description: 'Provide crap content type and related configuration. crap'
+type: module
+core: 8.x
+dependencies:
+  - file
+  - image
+  - link
+  - menu_ui
+  - node
+  - path
+  - text
+  - user
+package: WFM
+features:
+  bundle: wfm

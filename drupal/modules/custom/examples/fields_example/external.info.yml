@@ -1,0 +1,5 @@
+name: External Link Content Type
+type: module
+description: 'Provide External content type and related configuration. Test content type to see if I can recreate this beast from it''s YAML files'
+core: 8.x
+package: Example modules

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.crap.field_crap_info
+    - field.field.node.crap.field_crap_url
+    - node.type.crap
+  module:
+    - user
+id: node.crap.teaser
+targetEntityType: node
+bundle: crap
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_crap_info: true
+  field_crap_url: true

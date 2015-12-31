@@ -1,0 +1,6 @@
+foobar:
+  path: 'admin/foobar'
+  defaults:
+    _controller: '\Drupal\foobar\Controller\FoobarController::foobarPage'
+  requirements:
+    _permission: 'access content'

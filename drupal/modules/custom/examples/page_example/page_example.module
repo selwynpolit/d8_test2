@@ -1,0 +1,19 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * implements hook_help().
+ */
+
+function page_example_help($route_name, RouteMatchInterface $route_match) {
+  switch($route_name) {
+    case 'page_example_simple':
+      return t('This is help test for the simple page');
+      break;
+
+    case 'help.page.page_example':
+      return t("this is help text creating in the page example's implementation of hook_help().");
+  }
+}

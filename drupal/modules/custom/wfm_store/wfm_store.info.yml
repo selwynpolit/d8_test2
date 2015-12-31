@@ -1,0 +1,75 @@
+name: Store
+description: 'Provide Store content type and related configuration. A physical location where products are displayed and sold.'
+type: module
+core: 8.x
+dependencies:
+  - address
+  - file
+  - image
+  - link
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - telephone
+  - text
+  - user
+package: WFM
+features:
+  bundle: wfm
+  excluded:
+    - core.entity_form_display.node.store.default
+    - core.entity_view_display.node.store.default
+    - core.entity_view_display.node.store.teaser
+    - field.field.node.store.field_store_about
+    - field.field.node.store.field_store_address
+    - field.field.node.store.field_store_add_holiday_special_
+    - field.field.node.store.field_store_exclude_special_diet
+    - field.field.node.store.field_store_facebook_fan_page
+    - field.field.node.store.field_store_fax_number
+    - field.field.node.store.field_store_flickr_url
+    - field.field.node.store.field_store_front_image
+    - field.field.node.store.field_store_google_plus_url
+    - field.field.node.store.field_store_has_e_store
+    - field.field.node.store.field_store_has_wellness_club
+    - field.field.node.store.field_store_holiday_hours
+    - field.field.node.store.field_store_holiday_hours_headin
+    - field.field.node.store.field_store_hours
+    - field.field.node.store.field_store_instagram_url
+    - field.field.node.store.field_store_in_development_
+    - field.field.node.store.field_store_nickname
+    - field.field.node.store.field_store_opening_soon
+    - field.field.node.store.field_store_phone_
+    - field.field.node.store.field_store_pinterest_url
+    - field.field.node.store.field_store_region
+    - field.field.node.store.field_store_sells_alcohol
+    - field.field.node.store.field_store_tumblr_url
+    - field.field.node.store.field_store_twitter_username
+    - field.storage.node.field_store_about
+    - field.storage.node.field_store_address
+    - field.storage.node.field_store_add_holiday_special_
+    - field.storage.node.field_store_fax_number
+    - field.storage.node.field_store_flickr_url
+    - field.storage.node.field_store_front_image
+    - field.storage.node.field_store_google_plus_url
+    - field.storage.node.field_store_has_e_store
+    - field.storage.node.field_store_has_wellness_club
+    - field.storage.node.field_store_holiday_hours
+    - field.storage.node.field_store_holiday_hours_headin
+    - field.storage.node.field_store_hours
+    - field.storage.node.field_store_instagram_url
+    - field.storage.node.field_store_in_development_
+    - field.storage.node.field_store_nickname
+    - field.storage.node.field_store_opening_soon
+    - field.storage.node.field_store_phone_
+    - field.storage.node.field_store_pinterest_url
+    - field.storage.node.field_store_region
+    - field.storage.node.field_store_sells_alcohol
+    - field.storage.node.field_store_tumblr_url
+    - field.storage.node.field_store_twitter_username
+  required:
+    - core.entity_form_display.taxonomy_term.regions.default
+    - core.entity_view_display.taxonomy_term.regions.default
+    - field.field.taxonomy_term.regions.field_region_code
+    - field.storage.taxonomy_term.field_region_code
+    - taxonomy.vocabulary.regions
