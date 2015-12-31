@@ -1,0 +1,6 @@
+error_log
+access_log
+.idea
+.DS_Store
+vendor
+
